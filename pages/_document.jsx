@@ -7,7 +7,7 @@ function Document() {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <body className="">
+      <body className="font-sans">
         <Main />
         <NextScript />
       </body>
