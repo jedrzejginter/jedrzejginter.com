@@ -1,1 +1,1 @@
-# jedrzejginter-site
+# jedrzejginter
