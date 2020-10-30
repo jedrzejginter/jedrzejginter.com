@@ -1,0 +1,28 @@
+{
+  "name": "jedrzejginter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jedrzejginter/jedrzejginter-site.git",
+  "author": "Jedrzej Ginter <dzeejj@gmail.com> (https://github.com/jedrzejginter)",
+  "license": "MIT",
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "dev": "next -p ${PORT:-3000}",
+    "build": "next build && next export",
+    "build:tailwind": "tailwind build tailwind.css -o public/css/styles.css",
+    "start": "next start -p ${PORT:-3000}"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "1.6.19",
+    "@next/mdx": "10.0.0",
+    "hoist-non-react-statics": "3.3.2",
+    "next": "9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "1.9.6"
+  }
+}
