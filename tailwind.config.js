@@ -20,6 +20,7 @@ module.exports = {
   theme: {
     colors: {
       black: "#000",
+      brand: "#261EAC",
       transparent: "transparent",
       white: "#fff",
     },
