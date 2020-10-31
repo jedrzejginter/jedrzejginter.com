@@ -10,7 +10,7 @@ function App({ Component, pageProps }) {
       <Head>
         <title>Jędrzej Ginter – jedrzejginter.com</title>
         <meta name="author" content="Jędrzej Ginter <dzeejj@gmail.com>" />
-        <meta name="description" content="Personal website for Jędrzej Ginter, Javascript developer." />
+        <meta name="description" content="Personal website for Jędrzej Ginter, JavaScript developer." />
         <meta name="theme-color" content="#261EAC" />
       </Head>
       <Component {...pageProps} />
